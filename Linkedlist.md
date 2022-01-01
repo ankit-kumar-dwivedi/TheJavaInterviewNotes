@@ -4,7 +4,7 @@
 <summary><b> Reverse a linked list </b>
 </summary>
 
-Reversing a linked list ia a popular problem
+Reversing a linked list is a popular problem
 there are multiple ways to do it.
 
 ### Simple Iterative Approach
@@ -64,7 +64,7 @@ This is more intuitive once I understand
             if (head == null || head.next == null) {
                 return head;
             }
-            // this will return a reversed linked list sorted 
+            // this will return a reversed linked list 
             // after head.next
             ListNode rev = reverseList(head.next);
             // eh! head still points it's previous next 
